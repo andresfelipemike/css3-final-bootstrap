@@ -1,0 +1,222 @@
+body{
+    background-color: white;
+    font-family: 'Cuprum', sans-serif !important;
+}
+
+
+/* Cabecera */
+
+
+.nav-link{
+    padding: 0 0 0 20px !important;
+    font-size: 1.3rem;
+}
+
+.navbar{
+    padding: 0 0 0 0 !important;
+}
+
+.container .row .cabecera{
+    padding: 0 5px 0 5px !important;
+    margin-top: 35px ;
+    margin-bottom: 35px;
+}
+
+
+
+
+
+
+
+/* Imagen Principal */
+
+
+.row .imagen-principal{
+    padding: 0 5px 0 5px;
+}
+
+.row .imagen-principal img{
+    margin-top: 5px;
+}
+
+
+
+/* Galeria Home */
+
+
+.galeria{
+    position: relative;
+    width: 100%;
+}
+.row{
+    padding: 0;
+    margin: 0;
+}
+.row .galeria{ 
+    padding: 5px 5px 5px 5px;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: white;
+}
+
+.galeria:hover .overlay {
+  opacity: 0.9;
+}
+
+.text {
+  font-size: 1.6rem;
+  color: gray;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+
+
+
+
+
+/* Footer*/
+
+
+ul, ol li{
+    list-style: none;
+    
+}
+
+.container .footer{
+    margin-top: 80px;
+    border-top: 6px solid black;
+}
+
+.container .footer .footer-row{
+    padding-top: 80px;
+    
+}
+
+.container .footer .footer-row li a{
+    color: black; 
+}
+
+.container .footer .footer-row ol{
+    padding: 0;
+    margin: 0;
+}
+
+.container .footer .footer-row ul{
+    padding: 0;
+    margin: 0;
+}
+
+.container .footer .footer-row li{
+    padding: 0;
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.container .footer .footer-row h2{
+    margin-bottom: 30px;  
+}
+
+
+
+
+
+
+/* Lightbox Ilustraciones-Retratos*/
+
+
+.container .row div p{
+    margin-top: 1em;
+    margin-bottom: 3em;
+    padding: 0px;
+    font-size: 1.3rem;
+    
+}
+
+.container .row .ilustracion{
+    padding: 0 5px 0 5px !important;
+}
+
+.container .row .ilustracion a img{
+    margin-bottom: 10px !important;
+}
+
+.container .row .retrato{
+    padding: 0 5px 0 5px !important;
+}
+
+.container .row .retrato a img{
+    margin-bottom: 10px !important;
+}
+
+.modal-content {
+    border-radius: 0 !important;
+   
+}
+
+
+/* Perfil */
+
+.perfil div p{
+    font-size: 1.2rem;
+    text-align: left;
+    padding: 0 15px 0 15px;
+    margin: 20px 0 20px 0;
+    
+}
+
+
+/* Celular */
+ 
+media (max-width: 768px){
+  font-size: 1.6rem;
+    
+}
+
+/* Desktop */
+
+
+@media (min-width: 1000px){
+    .contenedor{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+    
+}
+
+@media screen and (max-width: 1000px) {
+  html {
+    font-size: calc(16px + 20 * ((100vw - 320px) / 680));
+  }
+}
+
+
+
+
+
+
+
+
+
+ 
